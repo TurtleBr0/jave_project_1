@@ -5,20 +5,20 @@ const yourScoreSpan = document.querySelector('[data-your-score]')
 const SELECTIONS = [
     {
         name: 'rock',
-        icon: '🪨',
-        beats: 'scissors',
-    },
-    {
+        emoji: '🪨',
+        beats: 'scissors'
+      },
+      {
         name: 'paper',
-        icon: '📃',
-        beats: 'rock',
-    },
-    {
+        emoji: '📃',
+        beats: 'rock'
+      },
+      {
         name: 'scissors',
-        icon: '✂️',
+        emoji: '✂️',
         beats: 'paper'
-    }
-]
+      }
+    ]
 
 
 selectionButtons.forEach(selectionButton => {
